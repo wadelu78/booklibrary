@@ -1,0 +1,5 @@
+<!-- "!=" and "==" stipulate that null and undefined are the same -->
+<!-- using != and == when checking for null in cases where "undefined" and "null" should be treated the same way -->
+<% if(locals.errorMessage != null) { %>
+<%= errorMessage %>
+<% } %>

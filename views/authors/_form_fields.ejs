@@ -1,2 +1,5 @@
 <label>Name</label>
+<!--author.name only exists when an error in creating a new author, such as saving the author into the database-->
+<!--otherwise it is undefined -->
 <input type="text" name="name" value="<%= author.name %>">
+<% console.log(author.name) %>
